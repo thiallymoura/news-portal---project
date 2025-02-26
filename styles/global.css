@@ -45,3 +45,19 @@ h3 {
     font: inherit;
     /* herda a cor do pai - body*/
 }
+
+.container {
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin-inline: auto;
+
+}
+
+/*utility-first*/
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}

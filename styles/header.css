@@ -1,0 +1,31 @@
+#primary {
+    padding-block: 20px;
+    /* 20px em cima e em baixo */
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        /* 10px entre os elementos */
+    }
+
+    /*nesting css*/
+    div:nth-child(2) {
+        /*logo no meio*/
+        margin-inline: auto;
+    }
+
+    div:nth-child(3) {
+        /*buscar no final*/
+        justify-self: end;
+    }
+
+}
+
+#secondary {
+    padding-block: 14px;
+    /*14px em cima e em baixo*/
+    border: 1px solid var(--stroke-color);
+    border-inline: none;
+    /*sem borda lateral*/
+}
