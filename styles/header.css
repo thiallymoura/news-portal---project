@@ -28,4 +28,5 @@
     border: 1px solid var(--stroke-color);
     border-inline: none;
     /*sem borda lateral*/
+    justify-content: space-between;
 }
