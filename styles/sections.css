@@ -1,0 +1,9 @@
+#featured {
+
+    img {
+        height: 100%;
+        object-fit: cover;
+        /*mantem a proporção da imagem*/
+        border-radius: 4px;
+    }
+}
