@@ -1,7 +1,7 @@
 <h1> 🚀 Projeto prático - Portal de Notícias </h1>
 
 <p align="center">
-  <img alt="License" src="">
+  <img alt="License" src="./assets/readme.png">
 </p>
 
 <br>
